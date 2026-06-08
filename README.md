@@ -1,4 +1,51 @@
 # Awesome OpenRouter Alternatives
+
+A curated guide to OpenRouter alternatives for developers who want one API key,
+OpenAI-compatible endpoints, model routing, provider fallback, observability, or
+self-hosted control over AI traffic.
+
+OpenRouter is popular because it gives teams a single API surface for many LLMs.
+That convenience is useful, but it is not the only way to route prompts across
+OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, Qwen, Groq, Together,
+Fireworks, local models, and private inference servers. This README collects
+hosted AI gateways, open-source LLM gateways, and direct provider APIs that can
+replace part or all of an OpenRouter workflow.
+
+Last checked: June 2026.
+
+> Building AI apps with Claude Code, Codex, or your favorite API client?
+>
+> Try **[Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=cta-text)**, an OpenAI-compatible gateway and cheaper OpenRouter alternative. Use one API key, prepaid credits, and top models while cutting AI model costs by up to 50%.
+>
+> **[Compare model pricing](https://blackmagic.engineering/models?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=cta-pricing)**
+
+[<img width="1490" height="915" alt="Blackmagic AI OpenAI-compatible gateway dashboard" src="https://github.com/user-attachments/assets/af41beba-3fe0-4409-bfd6-03c6617a6ab1" />](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=cta-image)
+
+## What Counts As An OpenRouter Alternative?
+
+The best OpenRouter alternative depends on what you are replacing. Some teams
+want a hosted router with one bill and one key. Some want a self-hosted proxy
+because customer data, compliance, or latency rules forbid a third-party broker.
+Others only need a direct OpenAI-compatible endpoint for a smaller model catalog.
+
+This list favors tools that meet at least one of these criteria:
+
+- They expose an OpenAI-compatible API or can be used with the OpenAI SDK.
+- They route across multiple models, providers, or API keys.
+- They offer fallbacks, retries, rate limits, budgets, caching, or logs.
+- They work well with coding agents such as Claude Code, Codex, Cursor, Cline,
+  OpenCode, and similar tools that accept a custom base URL.
+- They are transparent enough to evaluate before moving production traffic.
+
+## Quick Comparison
+
+| Project | Type | Best For |
+| --- | --- | --- |
+| [Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted prepaid gateway | Claude Code and Codex users who want one key, prepaid credits, and lower model costs |
+| [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
+| [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
+| [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
+| [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
 | [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway) | Hosted and open-source gateway | Production routing, guardrails, virtual keys, budgets, retries, and load balancing |
 | [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) | Hosted and open-source gateway | Unified routing with observability-first LLM logging |
 | [Bifrost](https://docs.getbifrost.ai/) | Open-source gateway | High-performance self-hosted routing, governance, caching, and failover |
@@ -9,19 +56,6 @@
 ## Hosted OpenRouter Alternatives
 
 ### Blackmagic AI
-
-> Building AI apps with Claude Code, Codex, or your favorite API client?
->
-> Try **[Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-text)**, an OpenAI-compatible gateway and cheaper OpenRouter alternative. Use one API key, prepaid credits, and top models while cutting AI model costs by up to 50%.
-
-</br>
-
-[<img width="1490" height="915" alt="Blackmagic AI OpenAI-compatible gateway dashboard" src="https://github.com/user-attachments/assets/af41beba-3fe0-4409-bfd6-03c6617a6ab1" />](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-image)
-
-</br>
-
-> **[Compare model pricing](https://blackmagic.engineering/models?utm_source=github&utm_medium=awesome-list&utm_campaign=postman-alternatives&utm_content=cta-pricing)**
-
 
 [Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=blackmagic-section)
 is a prepaid AI API gateway for developers who want a simple buying motion: add
