@@ -51,6 +51,7 @@ This list favors tools that meet at least one of these criteria:
 | [Bifrost](https://docs.getbifrost.ai/) | Open-source gateway | High-performance self-hosted routing, governance, caching, and failover |
 | [Together AI](https://togetherai-migration.mintlify.app/docs/openai-api-compatibility) | Direct model provider | Open-source model inference through OpenAI-compatible APIs |
 | [Fireworks AI](https://docs.fireworks.ai/api-reference/post-chatcompletions) | Direct model provider | Fast inference, agent rollouts, open models, and OpenAI-style chat completions |
+| [TokenMix](https://tokenmix.ai) | Hosted prepaid gateway | Asia-Pacific developers wanting OpenAI + Anthropic-compatible routing with Alipay/WeChat payment |
 | [Groq](https://console.groq.com/docs/openai) | Direct model provider | Very fast hosted inference with mostly OpenAI-compatible clients |
 
 ## Hosted OpenRouter Alternatives
@@ -116,6 +117,21 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+
+### TokenMix
+
+[TokenMix](https://tokenmix.ai) is a hosted AI API gateway with a single
+OpenAI-compatible endpoint across 300+ models from 14 upstream providers,
+including OpenAI, Anthropic, Google, DeepSeek, and Qwen. It also exposes a
+native Anthropic endpoint at the same base URL, so Claude-native clients work
+without wrapper shims.
+
+Use TokenMix if you want a prepaid gateway with broad model coverage and payment
+options that include Alipay and WeChat in addition to credit card. Its public
+model catalog at `https://api.tokenmix.ai/api/models` lists pricing, context
+limits, and capability flags for every supported model without requiring
+authentication.
 
 ## Open-Source And Self-Hosted Gateways
 
