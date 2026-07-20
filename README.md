@@ -43,6 +43,7 @@ This list favors tools that meet at least one of these criteria:
 | --- | --- | --- |
 | [Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted prepaid gateway | Claude Code and Codex users who want one key, prepaid credits, and lower model costs |
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
+| [RouterPlex](https://routerplex.com) | Hosted prepaid gateway | One key for 37 models with vendor-list token pricing and hard per-key spend budgets |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
 | [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
@@ -81,6 +82,19 @@ Use Requesty if you want a hosted model router with smart routing and a broad
 catalog, but still prefer to keep application code in the OpenAI SDK shape. It
 is a practical candidate for app teams that want dashboard-driven routing
 instead of running proxy infrastructure themselves.
+
+### RouterPlex
+
+[RouterPlex](https://routerplex.com) is a hosted prepaid LLM gateway with
+OpenAI-compatible and Anthropic-compatible endpoints. It exposes 37 models
+across 14 providers through one API key and bills token usage at each vendor's
+published list price without a top-up fee.
+
+Use RouterPlex when unified model access and strict spend control matter:
+balances stop at zero, and each API key can have a hard lifetime spend budget.
+The service starts with a $5 top-up and does not offer universal signup credit,
+so teams should verify their required models and rate limits before moving
+production traffic.
 
 ### Vercel AI Gateway
 
