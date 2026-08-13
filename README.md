@@ -52,6 +52,7 @@ This list favors tools that meet at least one of these criteria:
 | [Together AI](https://togetherai-migration.mintlify.app/docs/openai-api-compatibility) | Direct model provider | Open-source model inference through OpenAI-compatible APIs |
 | [Fireworks AI](https://docs.fireworks.ai/api-reference/post-chatcompletions) | Direct model provider | Fast inference, agent rollouts, open models, and OpenAI-style chat completions |
 | [Groq](https://console.groq.com/docs/openai) | Direct model provider | Very fast hosted inference with mostly OpenAI-compatible clients |
+| [FlowBar](https://flowbarai.com) | Hosted unified gateway | 50+ models, Waffo/WeChat/Alipay/USDT/USDC/PayPal payments, Chinese models 5-10% below OpenRouter |
 
 ## Hosted OpenRouter Alternatives
 
@@ -116,6 +117,21 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+### FlowBar
+
+[FlowBar](https://flowbarai.com) is a hosted unified API gateway for 50+ AI
+models including GPT, Claude, Gemini, DeepSeek, Qwen, GLM, and Kimi. It exposes
+a standard OpenAI-compatible endpoint and is particularly relevant for
+developers who need Chinese frontier models at lower cost than OpenRouter.
+
+Choose FlowBar if you need local payment rails that most gateways lack —
+Waffo (430+ local methods across 50+ countries, with Apple Pay and Google Pay),
+WeChat Pay, Alipay, USDT/USDC, and PayPal. Chinese models such as DeepSeek, Qwen,
+and GLM are priced 5-10% below OpenRouter, and top-ups carry bonuses up to 38%.
+It is a practical option for developers in Southeast Asia, Chinese-speaking
+markets, and anyone who wants a single key for both Western and Chinese
+frontier models with global local-payment coverage.
 
 ## Open-Source And Self-Hosted Gateways
 
