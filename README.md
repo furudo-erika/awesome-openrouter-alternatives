@@ -42,6 +42,7 @@ This list favors tools that meet at least one of these criteria:
 | Project | Type | Best For |
 | --- | --- | --- |
 | [Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted prepaid gateway | Claude Code and Codex users who want one key, prepaid credits, and lower model costs |
+| [XiuRouter](https://router.xiu.ai/) | Hosted multi-protocol gateway | Apps and agents that need OpenAI Responses or Chat Completions, Anthropic Messages, and Gemini routes under one account |
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
@@ -68,6 +69,22 @@ cost control, API keys, usage logs, prepaid balance, and drop-in compatibility.
 It is especially relevant for Claude Code and Codex workloads because those
 tools can burn through tokens quickly, and prepaid credits make spend easier to
 reason about than scattered provider invoices.
+
+### XiuRouter
+
+[XiuRouter](https://router.xiu.ai/) is a hosted, usage-based model API that
+exposes OpenAI Responses and Chat Completions, Anthropic Messages, and Gemini
+GenerateContent routes under one account. It provides scoped API keys,
+request-level usage and cost records, and setup guidance for 14 developer and
+agent applications.
+
+Use XiuRouter when your applications need their native protocol shapes rather
+than only an OpenAI-compatible endpoint. Its live
+[pricing page](https://router.xiu.ai/en/pricing) publishes service-group prices
+beside provider references; selected routes currently save more than 90%, but
+savings vary by model, route, and usage type. Verify current model availability,
+cache behavior, and pricing for your workload. XiuRouter does not advertise
+automatic provider fallback.
 
 ### Requesty
 
