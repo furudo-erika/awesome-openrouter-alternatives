@@ -43,6 +43,7 @@ This list favors tools that meet at least one of these criteria:
 | --- | --- | --- |
 | [Blackmagic AI](https://blackmagic.engineering/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted prepaid gateway | Claude Code and Codex users who want one key, prepaid credits, and lower model costs |
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
+| [ModelRush](https://modelrush.ai/) | Hosted prepaid API platform | Apps combining OpenAI-compatible chat with model-specific image, video, and voice APIs |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
 | [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
@@ -116,6 +117,17 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+### ModelRush
+
+[ModelRush](https://modelrush.ai/) provides hosted chat, image, video, and voice
+APIs with prepaid usage-based billing. It fits apps that combine text and media
+generation under one account. Chat endpoints are OpenAI-compatible; media
+endpoints are model-specific, so it is not a drop-in replacement for every
+OpenRouter workflow. The hosted service is proprietary and has no ongoing free
+tier. Its catalog includes age-restricted Spicy variants. Check the
+[documentation](https://modelrush.ai/docs) and [pricing](https://modelrush.ai/pricing)
+for endpoint support and model-specific costs before migrating.
 
 ## Open-Source And Self-Hosted Gateways
 
