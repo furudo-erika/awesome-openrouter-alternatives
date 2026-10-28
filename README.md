@@ -41,6 +41,7 @@ This list favors tools that meet at least one of these criteria:
 
 | Project | Type | Best For |
 | --- | --- | --- |
+| [APIClaw](https://apiclaw.biz) | Hosted flat-rate AI API gateway | Teams that want OpenAI-compatible access to Claude, GPT, Gemini, DeepSeek and more on a $19–$129/mo plan instead of per-token billing |
 | [Hypereal AI](https://hypereal.cloud/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted AI API platform | Developers who want access to LLMs, image generation, and video models through one API key |
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
@@ -54,6 +55,17 @@ This list favors tools that meet at least one of these criteria:
 | [Groq](https://console.groq.com/docs/openai) | Direct model provider | Very fast hosted inference with mostly OpenAI-compatible clients |
 
 ## Hosted OpenRouter Alternatives
+
+### APIClaw
+
+[APIClaw](https://apiclaw.biz) is a hosted flat-rate OpenAI-compatible AI API gateway.
+Plans run $19–$129/mo with a free 50-request trial and crypto billing via NOWPayments.
+Base URL: `https://apiclaw.biz/v1`. Models include Claude, GPT, Gemini, DeepSeek, Qwen,
+Mistral, Llama, Grok, Kimi and GLM.
+
+Choose APIClaw when you want predictable monthly cost for multi-model access through an
+OpenAI-compatible client, rather than per-token aggregator billing. Confirm current model
+coverage and plan quotas on the site before production traffic.
 
 ### Hypereal AI
 
