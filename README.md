@@ -66,6 +66,23 @@ Choose Hypereal AI if your app combines language, image, or video workflows and
 you want a single place to manage API access. Check the documentation for the
 request format and capabilities of each model before integrating.
 
+### Septor Labs
+
+[Septor Labs](https://septorlabs.com) is a hosted gateway built for agent
+workloads. One key works with OpenAI Chat Completions and Anthropic Messages
+clients. Calls are routed by priority, weight, least-connections, or latency,
+a circuit breaker pulls a failing provider out of rotation, and a call that
+fails before the first token is failed over automatically.
+
+Semantic-cache hits cost 30% less. Credits are prepaid, each key has its own
+budget, and there are no seat fees. Range-priced models never bill above the
+published ceiling, and on most of them the cheapest rate is 30% or more below
+it.
+
+Use it when agents make the calls and you want failover before tokens start,
+plus a spend cap per key. Check the models and pricing pages for current
+coverage and rates.
+
 ### Requesty
 
 [Requesty](https://docs.requesty.ai/) is a hosted unified gateway with a single
