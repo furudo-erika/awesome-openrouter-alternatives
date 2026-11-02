@@ -45,6 +45,7 @@ This list favors tools that meet at least one of these criteria:
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
+| [RuAPI](https://www.ruapi.ai/) | Hosted prepaid gateway | Developers in Russia and the CIS who want Claude, GPT, Gemini, and Chinese models on one key, paid in USDT or USDC |
 | [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
 | [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway) | Hosted and open-source gateway | Production routing, guardrails, virtual keys, budgets, retries, and load balancing |
 | [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) | Hosted and open-source gateway | Unified routing with observability-first LLM logging |
@@ -113,6 +114,27 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+### RuAPI
+
+[RuAPI](https://www.ruapi.ai/) is a hosted pay-as-you-go gateway aimed at
+developers in Russia and the CIS. One key covers 50+ models from OpenAI,
+Anthropic, Google, DeepSeek, Qwen, GLM, Kimi, and MiniMax. It exposes an
+OpenAI-compatible `/v1/chat/completions` endpoint, `/v1/responses` for GPT
+models, and a native Anthropic Messages endpoint (`/v1/messages`), so Claude
+Code, Codex, Cline, OpenCode, and similar tools can be pointed at it with a
+base URL and an API key. Prompt caching discounts apply to Claude, GPT, and
+DeepSeek models.
+
+It is a paid hosted service with a prepaid USD balance. Top-ups are made in
+USDT or USDC, or with a foreign-issued Visa or Mastercard; cards issued in
+Russia are declined. There is no embeddings endpoint and no bring-your-own-key
+mode. Documentation is primarily in Russian, with
+[English](https://docs.ruapi.ai/en/introduction) and Chinese versions. Use
+RuAPI if you work from Russia or the CIS and want Claude Code, Codex, or OpenAI
+SDK apps on one key without a foreign-issued card. Check the
+[pricing page](https://www.ruapi.ai/pricing) for per-model costs before
+migrating.
 
 ## Open-Source And Self-Hosted Gateways
 
