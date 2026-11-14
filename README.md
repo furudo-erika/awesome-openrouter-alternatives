@@ -43,6 +43,7 @@ This list favors tools that meet at least one of these criteria:
 | --- | --- | --- |
 | [Hypereal AI](https://hypereal.cloud/?utm_source=github&utm_medium=awesome-list&utm_campaign=openrouter-alternatives&utm_content=comparison-row) | Hosted AI API platform | Developers who want access to LLMs, image generation, and video models through one API key |
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
+| [SandBase](https://www.sandbase.ai/) | Hosted AI API platform | Agent developers who want an OpenAI-compatible model endpoint plus data APIs and hosted sandboxes on one account. Model and data API rates vary by endpoint. |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
 | [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
