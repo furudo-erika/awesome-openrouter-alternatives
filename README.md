@@ -52,6 +52,7 @@ This list favors tools that meet at least one of these criteria:
 | [Together AI](https://togetherai-migration.mintlify.app/docs/openai-api-compatibility) | Direct model provider | Open-source model inference through OpenAI-compatible APIs |
 | [Fireworks AI](https://docs.fireworks.ai/api-reference/post-chatcompletions) | Direct model provider | Fast inference, agent rollouts, open models, and OpenAI-style chat completions |
 | [Groq](https://console.groq.com/docs/openai) | Direct model provider | Very fast hosted inference with mostly OpenAI-compatible clients |
+| [AutoRouter](https://autorouter.com) | Hosted router in a Mac app | Codex and Claude Code users who want models from several providers in the model picker they already use |
 
 ## Hosted OpenRouter Alternatives
 
@@ -113,6 +114,20 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+### AutoRouter
+
+[AutoRouter](https://autorouter.com) is a Mac app that adds 20+ models to the Codex
+and Claude Code model pickers, plus an AutoRouter option that picks the model for
+each turn. There are no keys or base URLs to set up, and it uses the ChatGPT and
+Claude plans people already pay for before spending credit. Plain-English rules
+decide first, and every turn shows its model, what it cost and why. A side-by-side
+with OpenRouter is at [autorouter.com/compare/openrouter](https://autorouter.com/compare/openrouter).
+
+Use it when most of your model traffic comes from coding tools such as Codex,
+Claude Code, Cursor or Claude Desktop. Caveats: it runs on macOS 14 or later only,
+it is in beta, and paid models are billed at the provider's price plus 10%
+(a Free plan routes across your own ChatGPT and Claude plans; Pro is $50 a month).
 
 ## Open-Source And Self-Hosted Gateways
 
