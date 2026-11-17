@@ -52,6 +52,7 @@ This list favors tools that meet at least one of these criteria:
 | [Together AI](https://togetherai-migration.mintlify.app/docs/openai-api-compatibility) | Direct model provider | Open-source model inference through OpenAI-compatible APIs |
 | [Fireworks AI](https://docs.fireworks.ai/api-reference/post-chatcompletions) | Direct model provider | Fast inference, agent rollouts, open models, and OpenAI-style chat completions |
 | [Groq](https://console.groq.com/docs/openai) | Direct model provider | Very fast hosted inference with mostly OpenAI-compatible clients |
+| [Off Grid AI Boost](https://getoffgridai.co/boost/) | Direct model provider | Open models such as Qwen 3.8 and DeepSeek V4.1 Flash on one key, with prompts never stored or trained on |
 
 ## Hosted OpenRouter Alternatives
 
@@ -180,6 +181,12 @@ decoding, tracing, and structured responses.
 matters. Its docs describe a mostly OpenAI-compatible API, so many apps can
 switch by changing the base URL and model names, subject to unsupported field
 differences.
+
+[Off Grid AI Boost](https://getoffgridai.co/boost/) runs open models such as
+Qwen 3.8 and DeepSeek V4.1 Flash on its own GPUs behind one OpenAI-compatible
+key, so you change one base URL and keep your SDK. Prompts are never stored or
+trained on. Plans are monthly with usage included, starting at $4.99 a month,
+and you can top up any time.
 
 ## Migration Checklist
 
