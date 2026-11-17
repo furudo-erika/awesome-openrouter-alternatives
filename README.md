@@ -160,6 +160,8 @@ Use Bifrost when gateway performance and self-hosted control are central. It is
 particularly interesting for platform teams that want a single internal LLM
 edge, with app teams calling one endpoint while the infrastructure team manages
 provider routing and policy.
+### NiceAI
+[NiceAI](https://niceai.dev) is an OpenAI-compatible AI API gateway; one key, one endpoint, pay-as-you-go.
 
 ## Direct Provider Alternatives
 
