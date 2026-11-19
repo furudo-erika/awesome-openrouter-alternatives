@@ -45,6 +45,7 @@ This list favors tools that meet at least one of these criteria:
 | [Requesty](https://docs.requesty.ai/) | Hosted model router | A broad hosted catalog with caching, analytics, and optimization |
 | [Vercel AI Gateway](https://vercel.com/docs/ai-gateway) | Hosted gateway | Vercel and AI SDK apps that want one endpoint for multiple providers |
 | [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) | Hosted control plane | Teams already using Cloudflare for rate limits, cache, logs, retries, and fallback |
+| [AI Code With](https://aicodewith.ai/en) | Hosted unified API | Developers who want prepaid, pay-as-you-go access for coding agents such as Claude Code, Codex, OpenCode, and Cursor through documented OpenAI- and Anthropic-compatible endpoints |
 | [LiteLLM](https://docs.litellm.ai/) | Open-source proxy | Self-hosted OpenAI-compatible routing across many LLM providers |
 | [Portkey AI Gateway](https://portkey.ai/docs/product/ai-gateway) | Hosted and open-source gateway | Production routing, guardrails, virtual keys, budgets, retries, and load balancing |
 | [Helicone AI Gateway](https://docs.helicone.ai/gateway/overview) | Hosted and open-source gateway | Unified routing with observability-first LLM logging |
@@ -113,6 +114,18 @@ OpenRouter.
 Use it when uptime, governance, and coding-agent integrations are the main
 criteria, and verify model coverage, retention settings, and pricing against
 your own workload before committing production traffic.
+
+### AI Code With
+
+[AI Code With](https://aicodewith.ai/en) is a hosted pay-as-you-go unified API.
+Documented base URLs: OpenAI-compatible `https://api.aicodewith.ai/v1`;
+Anthropic `https://api.aicodewith.ai` (no `/v1`); Gemini
+`https://api.aicodewith.ai/gemini_cli`. Billing is prepaid credits, not a
+monthly subscription.
+
+Check the public model list and pricing before production use.
+[Docs](https://docs.aicodewith.ai/en/docs/quickstart).
+[Pricing](https://aicodewith.ai/en/pricing).
 
 ## Open-Source And Self-Hosted Gateways
 
