@@ -127,7 +127,7 @@ Choose Morse if data handling is why you're comparing gateways: every request
 goes to a zero-retention host or an attested enclave, providers see Morse as the
 customer rather than your account, and a request no endpoint can meet is
 refused instead of being sent lower. Pricing is pay-as-you-go from a prepaid
-balance, per model, published at https://trymorse.ai/inference/models.
+balance, per model, published at https://trymorse.ai/inference/models?src=gh-awesome-openrouter-alternatives.
 Models: open-weight families such as DeepSeek, Kimi, GLM, Qwen, MiniMax and
 gpt-oss, through Chat Completions with streaming and tool calling.
 
