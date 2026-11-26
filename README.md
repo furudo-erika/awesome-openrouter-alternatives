@@ -66,6 +66,10 @@ Choose Hypereal AI if your app combines language, image, or video workflows and
 you want a single place to manage API access. Check the documentation for the
 request format and capabilities of each model before integrating.
 
+### Beiluo API (北洛API)
+
+[Beiluo API](https://beiluoxi.xyz/) is a hosted gateway for developers using GPT, Claude, Gemini, Grok, or DeepSeek with the OpenAI SDK. The [integration guide](https://beiluoxi.xyz/help/_full.html) documents the compatible base URL (`https://beiluoxi.xyz/v1`), streaming, and supported request paths. Billing depends on the model and routing group. The [public pricing feed](https://beiluoxi.xyz/api/provider/pricing) lists input, output, and cache rates in CNY.
+
 ### Requesty
 
 [Requesty](https://docs.requesty.ai/) is a hosted unified gateway with a single
